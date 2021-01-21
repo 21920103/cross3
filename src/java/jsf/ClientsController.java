@@ -28,8 +28,11 @@ public class ClientsController implements Serializable {
     private session.ClientsFacade ejbFacade;
     private PaginationHelper pagination;
     private int selectedItemIndex;
+    
+    
 
     public ClientsController() {
+        
     }
 
     public Clients getSelected() {
